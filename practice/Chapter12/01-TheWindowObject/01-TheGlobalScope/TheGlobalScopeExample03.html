@@ -1,0 +1,8 @@
+<script>
+  // this doesn't throw an error, because it's a property lookup
+  // newValue is set to undefined
+  var newValue = window.oldValue;
+  console.log(newValue);
+  // this throws an error because oldValue is undeclared
+  var newValue = oldValue;
+</script>

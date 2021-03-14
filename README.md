@@ -78,4 +78,4 @@ Learning with [Professional JavaScript for Web Developers, 4th Edition](https://
 
 ---
 
-[JavaScript高级程序设计（第4版）](https://www.ituring.com.cn/book/2472) [美] Matt Frisbie (作)  [李松峰](https://www.ituring.com.cn/space/81970) (译)
+[JavaScript高级程序设计（第4版）](https://www.ituring.com.cn/book/2472) [美] Matt Frisbie (作)  李松峰 (译)

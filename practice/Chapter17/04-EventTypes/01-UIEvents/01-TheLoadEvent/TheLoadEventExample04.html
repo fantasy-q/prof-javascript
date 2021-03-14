@@ -1,0 +1,7 @@
+<img src="smile.gif" id="myImage" onload="console.log('Image loaded.')">
+<script>
+  let image = document.getElementById("myImage");
+  image.addEventListener("load", (event) => {
+    console.log(event.target.src);
+  });
+</script>

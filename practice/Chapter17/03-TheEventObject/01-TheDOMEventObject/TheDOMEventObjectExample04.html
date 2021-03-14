@@ -1,0 +1,9 @@
+<input type="button" value="myBtn" id="myBtn">
+<script>
+  document.body.onclick = function (event) {
+    console.log('event.target', event.target);
+    console.log(event.currentTarget === document.body);              // true
+    console.log(this === document.body);                             // true
+    console.log(event.target === document.getElementById("myBtn"));  // true
+  };
+</script>

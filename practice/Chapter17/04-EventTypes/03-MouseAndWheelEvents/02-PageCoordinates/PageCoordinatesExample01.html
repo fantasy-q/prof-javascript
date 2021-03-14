@@ -1,0 +1,9 @@
+<link rel="stylesheet" href="../myDiv.css">
+<div id="myDiv">click</div>
+<script>
+  let div = document.getElementById("myDiv");
+  div.addEventListener("click", (event) => {
+    console.log(`Page coordinates: ${event.pageX}, ${event.pageY}`);
+    div.innerText = `Page coordinates: ${event.pageX}, ${event.pageY}`;
+  });
+</script>
